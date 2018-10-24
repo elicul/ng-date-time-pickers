@@ -1,5 +1,5 @@
 {
-  "name": "angular-template",
+  "name": "ng-date-time-pickers-app",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.10.0",
+    "@angular-devkit/build-ng-packagr": "~0.10.0",
     "@angular/cli": "7.0.2",
     "@angular/compiler-cli": "7.0.0",
     "@angular/language-service": "7.0.0",
@@ -43,9 +44,12 @@
     "karma-coverage-istanbul-reporter": "1.4.2",
     "karma-jasmine": "1.1.1",
     "karma-jasmine-html-reporter": "0.2.2",
+    "ng-packagr": "^4.2.0",
     "node-sass": "4.9.0",
     "protractor": "5.3.0",
     "ts-node": "5.0.1",
+    "tsickle": ">=0.29.0",
+    "tslib": "^1.9.0",
     "tslint": "5.10.0",
     "typescript": "3.1.3"
   }

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-
+import { NgDateTimePickersModule } from 'ng-date-time-pickers';
 import { HomeComponent } from './home.component';
 
 export const ROUTES: Routes = [
@@ -18,7 +18,8 @@ export const ROUTES: Routes = [
   imports: [
     CommonModule,
     RouterModule,
-    RouterModule.forChild(ROUTES)
+    RouterModule.forChild(ROUTES),
+    NgDateTimePickersModule
   ],
   exports: [
     HomeComponent
